@@ -83,7 +83,7 @@ public class ResourceDownloadManager : MonoBehaviour {
     void OnInitialize()
     {
         Debug.Log("初始化回调");
-        ResourceManager.instence.LoadPrefab("login", new string[] { "Button1", "Button2" }, OnLoadFinish);
+        //ResourceManager.instence.LoadPrefab("login", new string[] { "Button1", "Button2" }, OnLoadFinish);
 
         //加载游戏
         //加载网络
@@ -93,8 +93,8 @@ public class ResourceDownloadManager : MonoBehaviour {
     public void OnLoadFinish<T>(T[] objs)
     {
         Debug.Log("实例化");
-        Debug.Log(objs[0]);
-        Instantiate(objs[0] as GameObject,GameObject.Find("Canvas").transform);
-        Instantiate(objs[1] as GameObject, GameObject.Find("Canvas").transform);
+        //Debug.Log(objs[0]);
+        //Instantiate(objs[0] as GameObject,GameObject.Find("Canvas").transform);
+        //Instantiate(objs[1] as GameObject, GameObject.Find("Canvas").transform);
     }
 }
