@@ -35,7 +35,6 @@ public class ResourceManager : MonoBehaviour {
     }
     // Load AssetBundleManifest.
     public void Initialize(string manifestName, Action initOK) {
-        Debug.Log(manifestName);
         m_BaseDownloadingURL = Util.GetRelativePath();//得到相对路径
         LoadAsset<AssetBundleManifest>(manifestName, new string[] {"AssetBundleManifest" }, delegate(UObject[] objs) {
             if (objs.Length > 0) {
