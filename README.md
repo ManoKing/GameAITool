@@ -1,5 +1,5 @@
 # ManoXLua
-基于XLua的代码热更新和UIFramework（ToLua）的Assetbundle更新和依赖加载。
+基于XLua的代码热更新和UIFramework（ToLua）的Assetbundle更新和依赖加载。<br/>
 ###(一)
 首先是讲范例XLua:
 一个有bug的类
@@ -117,7 +117,7 @@ lua部分的代码,就3段 第一段 xlua.private_accessible(CS.HotfixText)
 
 第二段是修改 类中的 Init函数, 来初始化A,B。
 
-第三段是修改 类中的 Add函数,让他正确执行加法。
+第三段是修改 类中的 Add函数,让他正确执行加法。<br/>
 
 ###(二)
 然后简单叙述一下UIFramework中Assetbundle的加载方式。
