@@ -1,0 +1,31 @@
+{
+  "locked": false,
+  "version": 1,
+  "targets": {
+    ".NETFramework,Version=v4.0": {},
+    ".NETFramework,Version=v4.5": {},
+    ".NETFramework,Version=v4.5.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.0": [
+      "System.Configuration >= 4.0.0.0",
+      "System.Runtime.Serialization >= 4.0.0.0",
+      "System.ServiceModel >= 4.0.0.0",
+      "System.Xml >= 4.0.0.0"
+    ],
+    ".NETFramework,Version=v4.5": [
+      "System.Configuration >= 4.0.0.0",
+      "System.Runtime.Serialization >= 4.0.0.0",
+      "System.ServiceModel >= 4.0.0.0",
+      "System.Xml >= 4.0.0.0"
+    ],
+    ".NETFramework,Version=v4.5.1": [
+      "System.Configuration >= 4.0.0.0",
+      "System.Runtime.Serialization >= 4.0.0.0",
+      "System.ServiceModel >= 4.0.0.0",
+      "System.Xml >= 4.0.0.0"
+    ]
+  }
+}
