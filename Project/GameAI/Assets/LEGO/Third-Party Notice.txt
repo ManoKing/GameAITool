@@ -1,0 +1,11 @@
+Asset is governed by the "LEGO® Microgame Terms of Service" packaged with this Template -- consult them here: Assets > LEGO > LEGO® Microgame Terms of Service.txt
+
+However, the following components are governed by the licenses indicated below:
+
+A. EmojiOne
+Premium License Agreement
+Version 1.6 - June 21, 2018
+
+B. Catamaran-Bold
+LiberationSans OFL
+Version 1.1 2007
